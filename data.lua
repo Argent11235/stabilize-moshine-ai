@@ -1,7 +1,2 @@
-local shared = require("shared")
-
-local function remove_spoil_mechanic(prototype)
-  prototype.spoil_ticks = nil
-
-  prototype.spoil_to_trigger_result = nil
-end
+data.raw.item["model-unstable"].spoil_ticks = nil
+data.raw.item["model-unstable"].spoil_to_trigger_result = nil
